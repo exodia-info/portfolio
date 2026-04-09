@@ -16,6 +16,7 @@ export interface Project {
     demo?: string;
     caseStudy?: string;
   };
+  incoming?: boolean
 }
 
 export interface NavItem {

@@ -2,6 +2,28 @@
 import { type Project } from '../types';
 
 export const projects: Project[] = [
+
+    {
+    id: "Powercore",
+    title: "Powercore: slimmer alternative",
+    category: "Product Design",
+    date: "2025/2026",
+    accentColor: "#287ad1", 
+    description: "Work for Donaldson Company: iterate on the existinig product Powercore to reach a slimmer alternative.",
+    fullContent: "For this project, I was asked to improve an existing product (PowerCore side servicing), and together with the Donaldson team we ideated an alternative that takes less space than the original.\n\n-Note: the only objective of this portfolio is to showcase experience. For this reason, no in depth explanation nor images of all componets will be shared in order to keep sensible infos private.",
+    thumbnail: "https://cdn.allthepics.net/images/2026/04/09/image002.png", 
+    images: [
+  "https://cdn.allthepics.net/images/2026/04/09/image002.png",
+"https://cdn.allthepics.net/images/2026/04/09/image009.png",
+"https://cdn.allthepics.net/images/2026/04/09/image.png",
+ "https://cdn.allthepics.net/images/2026/04/09/image014.png", 
+ "https://cdn.allthepics.net/images/2026/04/09/image010.png",
+"https://cdn.allthepics.net/images/2026/04/09/body.png",
+ "https://cdn.allthepics.net/images/2026/04/09/cover.png", 
+    ],
+    tags: ["Siemens NX", "Optimization"],
+      incoming: true
+  },
   {
     id: "essential-cutting-board",
     title: "Essential cutting board",
@@ -57,13 +79,14 @@ export const projects: Project[] = [
       "https://i.postimg.cc/jj1xWDV9/IMG20250826130409.jpg"
     ],
     tags: ["Siemens NX", "3D printing"],
+  
   },
   {
     id: "rc-trike-body",
     title: "Aardbei trike body",
     category: "Surfacing",
     date: "Jun 2025",
-    accentColor: "#FF2400", // Scarlatto
+    accentColor: "#FF2400", 
     layout: "trike",
     description: "Futuristic thermoformed protective case for high-performance RC components.",
     fullContent: "The Goal: build a sleek, futuristic case for an RC car that can be easily thermoformed to protect the components of an RC trike.",
